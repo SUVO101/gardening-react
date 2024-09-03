@@ -8,6 +8,7 @@ import About from './pages/About'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Contact from './pages/Contact'
+import PlantGallery from './pages/PlantGallery'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/about" element={<About/>}></Route>
                 <Route path="/contact" element={<Contact/>}></Route>
+                <Route path="/plantgallery" element={<PlantGallery/>}></Route>
             </Routes>
           <Footer/>
        </div>
