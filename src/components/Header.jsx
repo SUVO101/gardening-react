@@ -10,7 +10,7 @@ const Header = () => {
     }
   return (
     <div>
-            <nav className="navbar navbar-expand-lg bg-success">
+            <nav className="navbar navbar-expand-lg bg-header">
                 <div className="container-fluid">
                     {/* <a className="t" ></a> */}
                     <NavLink to="/" className="navbar-brand text-light">Navbar</NavLink>

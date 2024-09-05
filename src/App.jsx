@@ -9,6 +9,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Contact from './pages/Contact'
 import PlantGallery from './pages/PlantGallery'
+import PlantChecking from './pages/PlantChecking'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/about" element={<About/>}></Route>
                 <Route path="/contact" element={<Contact/>}></Route>
                 <Route path="/plantgallery" element={<PlantGallery/>}></Route>
+                <Route path="/plantchecker" element={<PlantChecking/>}></Route>
             </Routes>
           <Footer/>
        </div>

@@ -12,7 +12,7 @@ const PlantGallery = () => {
         {
           "plant_url": 'sunflower.jpg',
           "plant_name": "Sunflower",
-          "description": "Sunflowers are tall flowers known for their large yellow heads and seeds."
+          "description": "Sunflowers are tall flowers known for large yellow heads and seeds."
         },
         {
           "plant_url": 'tulip.jpg',
@@ -22,7 +22,7 @@ const PlantGallery = () => {
         {
           "plant_url": 'orchid.jpg',
           "plant_name": "Orchid",
-          "description": "Orchids are exotic flowers known for their unique shapes and vibrant colors."
+          "description": "Orchids are exotic flowers known for their unique shapes and colors."
         },
         {
           "plant_url": 'cactus.avif',
@@ -38,22 +38,22 @@ const PlantGallery = () => {
     
       
   return (
-    <div className='container'>
+    <div className='container bg-mybody'>
         <div className="row d-flex justify-content-end p-3">
                  <div className="input-group" style={{width:"18rem",}}>
                      <input type="text" className="form-control" placeholder="Search Your Plant..." aria-label="Input group example" aria-describedby="btnGroupAddon" />
                      <div className="input-group-text" id="btnGroupAddon">
-                         <i class="bi bi-search"></i>
+                         <i className="bi bi-search"></i>
                      </div>
                 </div>
         </div>
-        <div className="row d-flex justify-content-center align-items-center">
+        <div className="row d-flex justify-content-center align-items-center p-3">
             
             {plantarray.map((plant, index) => (
 
                 <Plantcard plantobj={plant} key={index} />
                 ))
-                }
+             }
             
         </div>
     </div>

@@ -1,41 +1,27 @@
 import React from 'react'
-import Teammember from '../components/Teammember'
+import TeamMember from './TeamMember'
 
 const About = () => {
-    const teammembers=[
-        {
-            name:"Subhankar Nath",
-            url:"https://media.licdn.com/dms/image/v2/D4D35AQErg31Y3jptLA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1699375608450?e=1725894000&v=beta&t=Es7p4KCfGQUkigv52_rirCuQjnEqdmlZf_X4c-AxoRc",
-            description:"Developer"
-        },
-        {
-            name:"Subhankar Nath",
-            url:"https://media.licdn.com/dms/image/v2/D4D35AQErg31Y3jptLA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1699375608450?e=1725894000&v=beta&t=Es7p4KCfGQUkigv52_rirCuQjnEqdmlZf_X4c-AxoRc",
-            description:"Developer"
-        },
-        {
-            name:"Subhankar Nath",
-            url:"https://media.licdn.com/dms/image/v2/D4D35AQErg31Y3jptLA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1699375608450?e=1725894000&v=beta&t=Es7p4KCfGQUkigv52_rirCuQjnEqdmlZf_X4c-AxoRc",
-            description:"Developer"
-        }
-    ]
+    
   return (
-    <div className='container bg-light'>
-       <h2 className='mt-2 mb-2 bg-dark text-success p-3'>About us</h2>
-       <p className='lead'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, dolor minus
+    <div className='container bg-mybody'>
+       <h2 className='mb-2 text-hd p-3 text-center '>About us</h2><hr />
+       <p className='lead ps-5 pe-5 text-success fs-4 text-center'>
+            Smart Gardening is a modern approach to gardening that uses technology to
+              make planting easier and more effective. It helps gardeners by giving advice
+              based on important factors like weather, soil type, fertilisers and Plant
+              Hardiness Zones (which show how well plants grow in different climates). With
+              Smart Gardening, users can check if a plant will grow in their area based on
+              their location, environmental conditions and weather. The system can also
+              suggest the best plants for them to grow.
         </p>
-        <h2 className='mt-2 mb-2 bg-dark text-success p-3'>Our Team Members</h2>
-        <div className="row d-flex justify-content-center align-items-center">  
-            {
-                teammembers.map((onemember)=>{
-                    return <Teammember key={onemember.name} object={onemember} />;
-                })
-            }
-  
+        <TeamMember/>
+        <div>
+                
+                <h3 className='text-center m-0 pt-4 text-primary'>Thanks For Visiting Our Site</h3>
+                <h4 className='text-center m-0 pt-4 pb-4 text-hd'>Have a nice day!</h4>
         </div>
-
-        <h3 className='text-center mt-4'>Thanks For Visiting Our Site</h3>
-        <h4 className='text-center mt-4'>Have a nice day!</h4>
+      
     </div>
   )
 }

@@ -40,3 +40,40 @@
 .read-the-docs {
   color: #888;
 } */
+.bg-header {
+  background-color: #468585;
+}
+
+.bg-footer {
+  background-color: #50B498;
+}
+
+.bg-mybody {
+  background-color: #DEF9C4;
+}
+
+.bg-text {
+   color: #9CDBA6;
+}
+
+.text-hd{
+  color: #468585 !important;
+}
+.text-ft{
+  color: #9CDBA6 !important;
+}
+
+.btn-custom {
+  background-color: #4CAF50 !important; /* Use your desired color */
+  color: white !important; /* Ensure the text color is white */
+  border: none !important; /* Remove any borders */
+  padding: 10px 20px !important; /* Add padding */
+  border-radius: 4px !important; /* Rounded corners */
+  cursor: pointer !important; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease !important; /* Smooth transition for hover effect */
+  
+}
+
+.bg-highlight-success{
+  background-color: #d1e7dd !important;
+}
