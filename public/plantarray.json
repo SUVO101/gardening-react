@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "plant_url": "rose2.png",
+      "plant_name": "Rose",
+      "description": "A rose is a flowering plant known for its beauty and fragrance.",
+      "price": 220
+    },
+    {
+      "id": 2,
+      "plant_url": "sunflower2.png",
+      "plant_name": "Sunflower",
+      "description": "Sunflowers are tall flowers known for large yellow heads and seeds.",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "plant_url": "tulip2.png",
+      "plant_name": "Tulip",
+      "description": "Tulips are colorful, bulbous flowers that bloom in the spring.",
+      "price": 550
+    },
+    {
+      "id": 4,
+      "plant_url": "orchid2.png",
+      "plant_name": "Orchid",
+      "description": "Orchids are exotic flowers known for their unique shapes and colors.",
+      "price": 800
+    },
+    {
+      "id": 5,
+      "plant_url": "cactus2.png",
+      "plant_name": "Cactus",
+      "description": "Cacti are desert plants with thick, fleshy stems that store water.",
+      "price": 350
+    },
+    {
+      "id": 6,
+      "plant_url": "bamboo2.png",
+      "plant_name": "Bamboo",
+      "description": "Bamboo is a fast-growing grass used in construction and crafts.",
+      "price": 300
+    },
+    {
+      "id": 7,
+      "plant_url": "mango2.png",
+      "plant_name": "Mango",
+      "description": "Mango are desert plants with thick, fleshy stems that store water.",
+      "price": 350
+    },
+    {
+      "id": 8,
+      "plant_url": "apple2.png",
+      "plant_name": "Apple",
+      "description": "Apple is a fast-growing grass used in construction and crafts.",
+      "price": 700
+    }
+  ]
+  
